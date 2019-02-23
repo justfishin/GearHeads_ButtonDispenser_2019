@@ -82,11 +82,11 @@ public class OI {
 
         //stirButtons
         buttonButton2 = new AnalogIOButton(2);
-        buttonButton2.whenPressed(new Dispense_Button_Timed(3, 0.15));
+        buttonButton2.whenPressed(new stir_CommandGroup());
 
         //resetButtonDispenser
         buttonButton3 = new AnalogIOButton(1);
-        buttonButton3.whenPressed(new Dispense_Button_Timed(0.5, -0.15));
+        buttonButton3.whenPressed(new reset_CommandGroup());
 	    
         
         
