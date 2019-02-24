@@ -66,13 +66,12 @@ public class OI {
 
 	    
         // SmartDashboard Buttons
-        SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
 
         SmartDashboard.putData("Dispense_Button", new Dispense_Button());
 
         SmartDashboard.putData("Stir_Buttons", new Stir_Buttons());
 
-        SmartDashboard.putData("Flash_LED", new Flash_LED());
+        SmartDashboard.putData("Spin_Wheel_Actuator", new Spin_Wheel_Actuator());
 
         SmartDashboard.putData("Solid_LED", new Solid_LED());
 
